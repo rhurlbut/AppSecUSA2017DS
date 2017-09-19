@@ -1,0 +1,958 @@
+
+{
+
+"summary": {
+
+"title": "Sample1",
+
+"owner": "rhurlbut",
+
+"description": "Sample threat model using Threat Dragon"
+
+},
+
+"detail": {
+
+"contributors": [],
+
+"diagrams": [
+
+{
+
+"title": "TM1",
+
+"thumbnail": "./public/content/images/thumbnail.jpg",
+
+"id": 0,
+
+"diagramJson": {
+
+"cells": [
+
+{
+
+"type": "tm.Flow",
+
+"smooth": true,
+
+"source": {
+
+"id": "93123825-67d2-4cd0-9dbe-0cd0a648ea50"
+
+},
+
+"target": {
+
+"id": "329d80a1-3e94-41c2-b913-089a1b268a26"
+
+},
+
+"vertices": [
+
+{
+
+"x": 724,
+
+"y": 173
+
+},
+
+{
+
+"x": 747,
+
+"y": 170
+
+},
+
+{
+
+"x": 771,
+
+"y": 173
+
+},
+
+{
+
+"x": 804,
+
+"y": 194
+
+},
+
+{
+
+"x": 826,
+
+"y": 203
+
+},
+
+{
+
+"x": 842,
+
+"y": 220
+
+},
+
+{
+
+"x": 859,
+
+"y": 228
+
+},
+
+{
+
+"x": 888,
+
+"y": 258
+
+},
+
+{
+
+"x": 921,
+
+"y": 268
+
+}
+
+],
+
+"id": "bc26eaa5-372e-4986-8d16-3280ac71385c",
+
+"labels": [
+
+{
+
+"position": 0.5,
+
+"attrs": {
+
+"text": {
+
+"text": "Checks Credentials",
+
+"font-weight": "400",
+
+"font-size": "small"
+
+}
+
+}
+
+}
+
+],
+
+"z": 1,
+
+"hasOpenThreats": true,
+
+"isEncrypted": true,
+
+"threats": [
+
+{
+
+"ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+
+"title": "Generic tampering threat",
+
+"type": "Tampering",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic tampering threat"
+
+},
+
+{
+
+"ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+
+"title": "Generic information disclosure threat",
+
+"type": "Information disclosure",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic information disclosure threat"
+
+},
+
+{
+
+"ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+
+"title": "Generic DoS threat",
+
+"type": "Denial of service",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic DoS threat"
+
+}
+
+],
+
+"attrs": {
+
+".marker-target": {
+
+"class": "marker-target hasOpenThreats isInScope"
+
+},
+
+".connection": {
+
+"class": "connection hasOpenThreats isInScope"
+
+}
+
+}
+
+},
+
+{
+
+"type": "tm.Process",
+
+"size": {
+
+"width": 100,
+
+"height": 100
+
+},
+
+"position": {
+
+"x": 570,
+
+"y": 100
+
+},
+
+"angle": 0,
+
+"id": "93123825-67d2-4cd0-9dbe-0cd0a648ea50",
+
+"z": 2,
+
+"hasOpenThreats": true,
+
+"threats": [
+
+{
+
+"ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+
+"title": "Generic spoofing threat",
+
+"type": "Spoofing",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic spoofing threat"
+
+},
+
+{
+
+"ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+
+"title": "Generic tampering threat",
+
+"type": "Tampering",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic tampering threat"
+
+},
+
+{
+
+"ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+
+"title": "Generic repudiation threat",
+
+"type": "Repudiation",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic repudiation threat"
+
+},
+
+{
+
+"ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+
+"title": "Generic information disclosure threat",
+
+"type": "Information disclosure",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic information disclosure threat"
+
+},
+
+{
+
+"ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+
+"title": "Generic DoS threat",
+
+"type": "Denial of service",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic DoS threat"
+
+},
+
+{
+
+"ruleId": "c1377855-ea20-4c97-8861-f95c364fb8d2",
+
+"title": "Generic elevation threat",
+
+"type": "Elevation of privilege",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic elevation threat"
+
+}
+
+],
+
+"attrs": {
+
+".element-shape": {
+
+"class": "element-shape hasOpenThreats isInScope"
+
+},
+
+"text": {
+
+"text": "Login"
+
+},
+
+".element-text": {
+
+"class": "element-text hasOpenThreats isInScope"
+
+}
+
+}
+
+},
+
+{
+
+"type": "tm.Store",
+
+"size": {
+
+"width": 160,
+
+"height": 80
+
+},
+
+"position": {
+
+"x": 975,
+
+"y": 233
+
+},
+
+"angle": 0,
+
+"id": "329d80a1-3e94-41c2-b913-089a1b268a26",
+
+"z": 3,
+
+"hasOpenThreats": true,
+
+"storesCredentials": true,
+
+"isEncrypted": true,
+
+"threats": [
+
+{
+
+"ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+
+"title": "Generic tampering threat",
+
+"type": "Tampering",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic tampering threat"
+
+},
+
+{
+
+"ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+
+"title": "Generic repudiation threat",
+
+"type": "Repudiation",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic repudiation threat"
+
+},
+
+{
+
+"ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+
+"title": "Generic information disclosure threat",
+
+"type": "Information disclosure",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic information disclosure threat"
+
+},
+
+{
+
+"ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+
+"title": "Generic DoS threat",
+
+"type": "Denial of service",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic DoS threat"
+
+}
+
+],
+
+"attrs": {
+
+".element-shape": {
+
+"class": "element-shape hasOpenThreats isInScope"
+
+},
+
+"text": {
+
+"text": "User DB"
+
+},
+
+".element-text": {
+
+"class": "element-text hasOpenThreats isInScope"
+
+}
+
+}
+
+},
+
+{
+
+"type": "tm.Actor",
+
+"size": {
+
+"width": 160,
+
+"height": 80
+
+},
+
+"position": {
+
+"x": 122,
+
+"y": 216
+
+},
+
+"angle": 0,
+
+"id": "18b30a64-899d-46e2-b4f2-9616291a710d",
+
+"z": 4,
+
+"hasOpenThreats": true,
+
+"threats": [
+
+{
+
+"ruleId": "b2a6d40d-d3f8-4750-8e4d-c02cc84b13dc",
+
+"title": "Generic spoofing threat",
+
+"type": "Spoofing",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic spoofing threat"
+
+},
+
+{
+
+"ruleId": "87bc37e2-798e-4d68-bb96-feb1da26da48",
+
+"title": "Generic repudiation threat",
+
+"type": "Repudiation",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic repudiation threat"
+
+}
+
+],
+
+"attrs": {
+
+".element-shape": {
+
+"class": "element-shape hasOpenThreats isInScope"
+
+},
+
+"text": {
+
+"text": "User"
+
+},
+
+".element-text": {
+
+"class": "element-text hasOpenThreats isInScope"
+
+}
+
+}
+
+},
+
+{
+
+"type": "tm.Flow",
+
+"smooth": true,
+
+"source": {
+
+"id": "18b30a64-899d-46e2-b4f2-9616291a710d"
+
+},
+
+"target": {
+
+"id": "93123825-67d2-4cd0-9dbe-0cd0a648ea50"
+
+},
+
+"vertices": [
+
+{
+
+"x": 294,
+
+"y": 226
+
+},
+
+{
+
+"x": 334,
+
+"y": 199
+
+},
+
+{
+
+"x": 359,
+
+"y": 194
+
+},
+
+{
+
+"x": 401,
+
+"y": 168
+
+},
+
+{
+
+"x": 441,
+
+"y": 146
+
+},
+
+{
+
+"x": 462,
+
+"y": 139
+
+},
+
+{
+
+"x": 490,
+
+"y": 138
+
+},
+
+{
+
+"x": 510,
+
+"y": 136
+
+},
+
+{
+
+"x": 520,
+
+"y": 145
+
+}
+
+],
+
+"id": "41f5895a-b23f-456e-8096-4ace27004cf5",
+
+"labels": [
+
+{
+
+"position": 0.5,
+
+"attrs": {
+
+"text": {
+
+"text": "Logs In",
+
+"font-weight": "400",
+
+"font-size": "small"
+
+}
+
+}
+
+}
+
+],
+
+"z": 5,
+
+"hasOpenThreats": true,
+
+"threats": [
+
+{
+
+"ruleId": "4adaa48a-0345-4533-a189-64c98c4420dd",
+
+"title": "Generic tampering threat",
+
+"type": "Tampering",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic tampering threat"
+
+},
+
+{
+
+"ruleId": "13000296-b17d-4b72-9cc4-f5cc33f80e4c",
+
+"title": "Generic information disclosure threat",
+
+"type": "Information disclosure",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic information disclosure threat"
+
+},
+
+{
+
+"ruleId": "edb05d76-a695-455f-947b-7d67b78bc31d",
+
+"title": "Generic DoS threat",
+
+"type": "Denial of service",
+
+"status": "Open",
+
+"severity": "Medium",
+
+"description": "A generic DoS threat"
+
+},
+
+{
+
+"ruleId": "c1cae982-3e92-4bb2-b50b-ea51137fc3a7",
+
+"title": "Use encryption",
+
+"type": "Information disclosure",
+
+"status": "Open",
+
+"severity": "High",
+
+"description": "Unencrypted data sent over a public network may be intercepted and read by an attacker.",
+
+"mitigation": "Data sent over a public network should be encrypted either at the message or transport level."
+
+}
+
+],
+
+"isPublicNetwork": true,
+
+"attrs": {
+
+".marker-target": {
+
+"class": "marker-target hasOpenThreats isInScope"
+
+},
+
+".connection": {
+
+"class": "connection hasOpenThreats isInScope"
+
+}
+
+}
+
+},
+
+{
+
+"type": "tm.Boundary",
+
+"smooth": true,
+
+"source": {
+
+"x": 448,
+
+"y": 17
+
+},
+
+"target": {
+
+"x": 397,
+
+"y": 505
+
+},
+
+"vertices": [
+
+{
+
+"x": 467,
+
+"y": 186
+
+},
+
+{
+
+"x": 469,
+
+"y": 245
+
+},
+
+{
+
+"x": 450,
+
+"y": 303
+
+},
+
+{
+
+"x": 440,
+
+"y": 354
+
+}
+
+],
+
+"id": "146e1c05-2f01-418a-9a91-942d3c52d061",
+
+"z": 6,
+
+"attrs": {}
+
+},
+
+{
+
+"type": "tm.Boundary",
+
+"smooth": true,
+
+"source": {
+
+"x": 824,
+
+"y": 31
+
+},
+
+"target": {
+
+"x": 725,
+
+"y": 479
+
+},
+
+"vertices": [
+
+{
+
+"x": 789,
+
+"y": 86
+
+},
+
+{
+
+"x": 775,
+
+"y": 145
+
+},
+
+{
+
+"x": 749,
+
+"y": 293
+
+},
+
+{
+
+"x": 738,
+
+"y": 385
+
+}
+
+],
+
+"id": "a8d6ea63-5d9a-4cea-8fa0-446db42097c0",
+
+"z": 7,
+
+"attrs": {}
+
+}
+
+]
+
+},
+
+"size": {
+
+"height": 1657.1785888671875,
+
+"width": 1135
+
+}
+
+}
+
+],
+
+"reviewer": "rhurlbut"
+
+}
+
+}
