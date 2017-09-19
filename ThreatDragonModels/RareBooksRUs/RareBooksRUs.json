@@ -46,8 +46,8 @@
                 "height": 80
               },
               "position": {
-                "x": 66,
-                "y": 272
+                "x": 58,
+                "y": 317
               },
               "angle": 0,
               "id": "03f69cce-7200-41aa-82a8-1a05e92b5165",
@@ -228,8 +228,8 @@
                 "height": 100
               },
               "position": {
-                "x": 265,
-                "y": 145
+                "x": 271,
+                "y": 143
               },
               "angle": 0,
               "id": "2ef6a66d-f676-4370-84bb-51f83cebfef1",
@@ -666,7 +666,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "order details",
+                      "text": "shipping details",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -752,6 +752,45 @@
                 }
               ],
               "z": 23,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "2ef6a66d-f676-4370-84bb-51f83cebfef1"
+              },
+              "target": {
+                "id": "03f69cce-7200-41aa-82a8-1a05e92b5165"
+              },
+              "vertices": [
+                {
+                  "x": 303,
+                  "y": 327
+                }
+              ],
+              "id": "71ceaf5f-dc76-4447-899d-8312fbd17a48",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "billing information",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 24,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
