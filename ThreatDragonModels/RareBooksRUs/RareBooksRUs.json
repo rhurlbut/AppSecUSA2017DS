@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "RareBooksRUs",
+    "owner": "Robert Hurlbut",
+    "description": "Sample threat model for RareBooksRUs"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Robert Hurlbut"
+  }
+}
