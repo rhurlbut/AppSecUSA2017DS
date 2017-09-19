@@ -20,8 +20,8 @@
                 "height": 80
               },
               "position": {
-                "x": 15,
-                "y": 172
+                "x": 1,
+                "y": 162
               },
               "angle": 0,
               "id": "4caf3325-068b-42e4-8632-4f05e4411c74",
@@ -46,8 +46,8 @@
                 "height": 100
               },
               "position": {
-                "x": 372,
-                "y": 148
+                "x": 318,
+                "y": 138
               },
               "angle": 0,
               "id": "8f7298fc-e529-4c2e-9a44-5449b4362ebe",
@@ -72,8 +72,8 @@
                 "height": 80
               },
               "position": {
-                "x": 684,
-                "y": 149
+                "x": 547,
+                "y": 154
               },
               "angle": 0,
               "id": "cdef8835-d41a-4b9f-a968-64df45c2a34a",
@@ -107,7 +107,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 3",
+                      "text": "Login User",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -124,12 +124,62 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "8f7298fc-e529-4c2e-9a44-5449b4362ebe"
+              },
+              "target": {
+                "id": "cdef8835-d41a-4b9f-a968-64df45c2a34a"
+              },
+              "vertices": [],
+              "id": "59c9197a-8943-4cd0-8774-2140d1009021",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Check credentials",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 306,
+                "y": 59
+              },
+              "target": {
+                "x": 273,
+                "y": 380
+              },
+              "vertices": [],
+              "id": "ae09d798-1269-458b-bb3e-d1751345346e",
+              "z": 6,
+              "attrs": {}
             }
           ]
         },
         "size": {
           "height": 590,
-          "width": 866
+          "width": 1394
         }
       }
     ],
